@@ -1,6 +1,4 @@
-
 import csv
-
 
 def read_csv_file(file):
 
@@ -11,6 +9,5 @@ def read_csv_file(file):
         file_records.append(dict(red))
 
     return file_records
-
 
 print("file_records = " + str(read_csv_file("My_CSV_Parser.csv")))
